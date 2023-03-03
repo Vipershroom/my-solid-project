@@ -2,7 +2,7 @@
 import './index.css';
 import { render } from 'solid-js/web';
 
-import App from './App';
+import App from './components/App';
 
 const root = document.getElementById('root');
 
@@ -12,4 +12,5 @@ if (import.meta.env.DEV && !(root instanceof HTMLElement)) {
   );
 }
 
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
 render(() => <App />, root!);

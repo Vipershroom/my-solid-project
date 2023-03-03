@@ -1,9 +1,11 @@
 import type { Component } from 'solid-js';
+import Header from './Header';
 
 const App: Component = () => {
-  console.log("Hi")
   return (
-    <h1>Hello, World</h1>
+    <div>
+      <Header />
+    </div>
   );
 };
 
