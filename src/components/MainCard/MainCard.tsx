@@ -21,7 +21,7 @@ const MainCard: Component = () => {
     }
 
   return(
-  <div ref={cardRef} id={style.card}>
+  <div ref={cardRef} id={style.card} class='w-1/2'>
     <div ref={innerRef} id={style.inner} >
         <div class='hover: cursor-pointer' id={style.front} onClick={() => {
             if (isActive() === true) {
