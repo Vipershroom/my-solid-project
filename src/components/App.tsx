@@ -8,9 +8,9 @@ const App: Component = () => {
     <div class="bold text-3xl h-screen">
       <Header />
       <div class="flex items-center justify-center mt-10">
-        <p>&lt;</p>
+        <p class="hover: cursor-pointer">&lt;</p>
         <MainCard />
-        <p>&gt;</p>
+        <p class="hover: cursor-pointer">&gt;</p>
       </div>
       <div class="flex flex-col items-center mt-10">
         <Card />
