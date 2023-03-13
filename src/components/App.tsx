@@ -4,6 +4,8 @@ import Header from "./Header";
 import MainCard from "./MainCard/MainCard";
 
 const App: Component = () => {
+  const n = { front: "intrinsic", back: "Solidjs dumb" };
+
   return (
     <div class="bold text-3xl h-screen">
       <Header />
@@ -13,7 +15,7 @@ const App: Component = () => {
         <p class="hover: cursor-pointer">&gt;</p>
       </div>
       <div class="flex flex-col items-center mt-10">
-        <Card />
+        <Card front={n.front} back={n.back} />
       </div>
     </div>
   );
